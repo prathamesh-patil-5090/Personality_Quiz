@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /api/
+Disallow: /admin/
+Disallow: /.well-known/
+Disallow: /wp-admin/
+Disallow: /wp-content/
+
+# Misleading entries to confuse scanners
+Sitemap: https://example.com/sitemap.xml
+Crawl-delay: 10
+
+# Common paths that don't exist but scanners look for
+User-agent: Googlebot
+Allow: /
+
+User-agent: wappalyzer
+Disallow: /
+
+User-agent: builtwith
+Disallow: /
+
+User-agent: whatruns
+Disallow: /

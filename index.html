@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Interactive web application" />
+    <meta name="robots" content="index, follow" />
+    <title>Element Personality Quiz</title>
+    <!-- Remove any framework identifying comments or meta tags -->
+    <style>
+      /* Inline critical CSS to reduce requests */
+      #app-container { margin: 0; padding: 0; }
+      .loading { display: flex; justify-content: center; align-items: center; height: 100vh; }
+    </style>
+  </head>
+  <body>
+    <!-- Custom mount point with obfuscated ID -->
+    <div id="app-container">
+      <div class="loading">Loading...</div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

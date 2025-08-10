@@ -1,0 +1,153 @@
+/* General Styles */
+html {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  color: black;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background-color: #e0e0e0;
+}
+
+/* Form Styles */
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form button {
+  color: black;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Question Styles */
+h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: black;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  min-width: 150px;
+}
+
+button:hover {
+  background-color: #c4c4c4;
+}
+
+.artwork {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.artwork img {
+  max-width: 30%;
+  min-width: 200px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.artwork p {
+  margin: 5px 0;
+  text-align: center;
+  color: black;
+}
+
+.artwork h2 {
+  color: black;
+  margin: 10px 0;
+}
